@@ -24,8 +24,12 @@ header {
     width: 800px;
     height: 120px;
     background: black;
-        
+    box-sizing: border-box;
+    padding-top: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3)    
 }
+
+
 
 ul {
     list-style: none;
@@ -46,7 +50,7 @@ li a {
     font-weight: bold;
     background: black;
     color: white;
-    transition: all 0.5s ease-in;
+    transition: all 0.25s linear;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3)
 }
 
@@ -56,9 +60,3 @@ li a:hover {
     
 
 }
-
-
-
-@-webkit-keyframes emilAnimation {
-	0% {-webkit-transform:rotate(0deg);}
-	100% {-webkit-transform:rotate(360deg);
