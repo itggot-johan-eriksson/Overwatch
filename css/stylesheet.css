@@ -50,6 +50,12 @@ li a:hover {
     
 
 }
+#shield {
+    height: 100%;
+    float: left;
+    width:90px;
+    margin-right: 40px;
+}
 /*--------------------------Slut på navigation med lismeny-------------------------*/
 /*--------------------------------------Header-------------------------------------*/
 header {
@@ -95,5 +101,17 @@ article:hover {
 }
 /*-----------------------------slut på tre artiklar i vänstra hörnet------------ */
 
+#bot {
+    width: 1210px;
+    height: 295px;
+    float: left
+}
 
+footer {
+    width: 1210px;
+    height: 150px;
+    background: black;
+    clear: both;
+}
+    
 
