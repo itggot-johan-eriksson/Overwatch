@@ -12,10 +12,9 @@ body {
 .margright{
     margin-right: 10px;
 }
-
-#topbar {
-    text-align: right;
-    
+#current {
+    color: white;
+    background: rgba(0,0,0,0.6);
 }
 /*---------------------------Navigation med listmeny-------------------------*/
 nav {
@@ -77,15 +76,19 @@ header {
     background-image: url(../img/Header-Overwatch.png);
     
 }
+
+#headr{
+    float: right;
+    width:880px; 
+    height:400px;
+    box-sizing: border-box;
+}
 h1 {
-    text-align: right;
-    display: block;
+    text-align: center;
     margin-top:125px;
     margin-right: 100px;
-    background: rgba(0,0,0,0.5);
-    width: 750px;
+    background: rgba(0,0,0,0.6);
     height: 135px;
-    float: right;
     font-size: 72px;
     font-family: helvetica;
     color: white;
@@ -136,7 +139,7 @@ article:hover {
 footer {
     width: 1210px;
     height: 400px;
-    margin-top:50px;
+    margin-top:px;
     background-image: url(../img/Footer-Overwatch.png);
     clear: both;
 }
