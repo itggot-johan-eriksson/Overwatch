@@ -12,6 +12,11 @@ body {
 .margright{
     margin-right: 10px;
 }
+
+#topbar {
+    text-align: right;
+    
+}
 /*---------------------------Navigation med listmeny-------------------------*/
 nav {
     width: 1210px;
