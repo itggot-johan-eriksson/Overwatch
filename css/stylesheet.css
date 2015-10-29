@@ -62,7 +62,7 @@ li a:hover {
 header {
     width: 1210px;
     height: 400px;
-    background-image: image("Frontpage-Head");
+    /*---fixa så att Header-Overwatch.jph kommer här---*/
     
 }
 
@@ -109,7 +109,8 @@ article:hover {
 
 footer {
     width: 1210px;
-    height: 150px;
+    height: 200px;
+    margin-top:50px;
     background: black;
     clear: both;
 }
