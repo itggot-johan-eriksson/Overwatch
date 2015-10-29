@@ -126,6 +126,12 @@ article {
     background: black;
     float: left;
 }
+.longerhoriz {
+    width: 1210px;
+    height: 295px;
+    background: black;
+    float: left;
+}
 article:hover {
     background: rgba(0,0,0,0.2);
     box-shadow: 0px 0px 100px 0px rgba(0,0,0,1.0) inset;
@@ -139,7 +145,7 @@ article:hover {
 footer {
     width: 1210px;
     height: 400px;
-    margin-top:px;
+    margin-top:10px;
     background-image: url(../img/Footer-Overwatch.png);
     clear: both;
 }
