@@ -1,3 +1,10 @@
+
+@font-face {
+    font-family: antonio;
+    src: url(antionio.ttf);
+    
+}
+
 body {
     background: url(../img/Background-Overwatch.png);
 }
@@ -90,7 +97,7 @@ h1 {
     background: rgba(0,0,0,0.6);
     height: 135px;
     font-size: 72px;
-    font-family: helvetica;
+    font-family: antonio;
     color: white;
     box-sizing: border-box;
     padding: 25px;
@@ -149,8 +156,8 @@ footer {
 /*----------------------------Artiklar på Overwatch/news-----------------------*/
 
 .fyra {
-    width: 2000px;
-    height: 2000px;
+    width: 1210px;
+    height: 1430px;
     float: left;
 }
 
@@ -164,6 +171,11 @@ footer {
     margin-left: 25px;
 }
 
+#news-img p {
+    margin-top: 130px;
+    
+}
+
 .news-article {
     width: 1210px;
     height: 350px;
@@ -175,7 +187,15 @@ footer {
     float: left;
     margin-left: 100px;
     margin-top: 50px;
-    font-size: 25px;
-    font-family: fantasy;
+    font-size: 35px;
+    font-family: antonio;
     color: whitesmoke;
+}
+
+.news-article p {
+    float: left;
+    margin-left: 150px;
+    font-size: 20px;
+    font-family: antonio;
+    color: white
 }
